@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI테스트</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>MBTI 테스트</h1>
+        <form id="quiz-form">
+            <!-- <div class="question">
+                <p>아침에 일어나자마자 가장 먼저 하는 일은?</p>
+                <label><input type="radio" name="q1" value="E"> 휴대폰 확인하기</label>
+                <label><input type="radio" name="q1" value="I"> 커피 마시기</label>
+                <label><input type="radio" name="q1" value="S"> 운동하기</label>
+                <label><input type="radio" name="q1" value="N"> 잠 더 자기</label>
+            </div>
+            
+            <div class="question">
+                <p>주말에 주로 하는 일은?</p>
+                <label><input type="radio" name="q2" value="E"> 친구 만나기</label>
+                <label><input type="radio" name="q2" value="I"> 집에서 쉬기</label>
+                <label><input type="radio" name="q2" value="S"> 여행 가기</label>
+                <label><input type="radio" name="q2" value="N"> 취미 활동 하기</label>
+            </div>
+            
+            <div class="question">
+                <p>일을 할 때 가장 중요한 것은?</p>
+                <label><input type="radio" name="q3" value="T"> 효율성</label>
+                <label><input type="radio" name="q3" value="F"> 팀워크</label>
+                <label><input type="radio" name="q3" value="J"> 계획성</label>
+                <label><input type="radio" name="q3" value="P"> 유연성</label>
+            </div>-->
+            
+            <div class="question">
+                <p>나 우울해서 빵 샀어</p>
+                <label><input type="radio" name="q1" value="P">무슨 빵?</label>
+                <label><input type="radio" name="q1" value="J">왜 우울해?</label>
+            </div>
+            <div class="question">
+                <p>친구가 같이 놀자는데 괜찮아?</p>
+                <label><input type="radio" name="q2" value="J">그럼 당연하지</label>
+                <label><input type="radio" name="q2" value="P">어? 좀 그런데...</label>
+            </div>
+            <div class="question">
+                <p>멍 때린다는 건?</p>
+                <label><input type="radio" name="q3" value="T">아무 생각 안하는 것</label>
+                <label><input type="radio" name="q3" value="F">망상의 폭주</label>
+            </div>
+            <div class="question">
+                <p>지금 영화를 보고 싶은 당신! 어떻게 관람할건가요?</p>
+                <label><input type="radio" name="q4" value="E">영화관에서 영화 관람</label>
+                <label><input type="radio" name="q4" value="I">방구석 1열에서 영화 관람</label>
+            </div>
+            <div class="question">
+                <p>비행기 타기 전에 무슨 생각해?</p>
+                <label><input type="radio" name="q5" value="T">비행기가 추락하면 어쩌지. 비상구 자리에 앉을까?</label>
+                <label><input type="radio" name="q5" value="F">기내식 뭐 나오지? 영화볼까?</label>
+            </div>
+            <div class="question">
+                <p>길 가다 멀리서 아는 사람을 봤을 떄 당신의 반응은?</p>
+                <label><input type="radio" name="q6" value="S">그 사람이 있는 곳으로 가 인사한다.</label>
+                <label><input type="radio" name="q6" value="N">나중에 또 볼테니 굳이 아는 척하지 않는다.</label>
+            </div>
+            <div class="question">
+                <p>나 교통사고 났어</p>
+                <label><input type="radio" name="q7" value="S">어머! 많이 다쳤어? 괜찮아?</label>
+                <label><input type="radio" name="q7" value="N">보험은 들어놨어? 누구 과실이야?</label>
+            </div>
+            <div class="question">
+                <p>두근두근 해외여행! 당신은?</p>
+                <label><input type="radio" name="q8" value="S">몸이 이끄는 여행</label>
+                <label><input type="radio" name="q8" value="N">계획 없이는 불안해</label>
+            </div>
+            <div class="question">
+                <p>과제 제출기간이 남았을 떄 언제 제출할지?</p>
+                <label><input type="radio" name="q9" value="S">그 사람이 있는 곳으로 가 인사한다.</label>
+                <label><input type="radio" name="q9" value="N">나중에 또 볼테니 굳이 아는 척하지 않는다.</label>
+            </div>
+            <div class="question">
+                <p>길 가다 멀리서 아는 사람을 봤을 떄 당신의 반응은?</p>
+                <label><input type="radio" name="q10" value="S">그 사람이 있는 곳으로 가 인사한다.</label>
+                <label><input type="radio" name="q10" value="N">나중에 또 볼테니 굳이 아는 척하지 않는다.</label>
+            </div>
+            <div class="question">
+                <p>길 가다 멀리서 아는 사람을 봤을 떄 당신의 반응은?</p>
+                <label><input type="radio" name="q11" value="S">그 사람이 있는 곳으로 가 인사한다.</label>
+                <label><input type="radio" name="q11" value="N">나중에 또 볼테니 굳이 아는 척하지 않는다.</label>
+            </div>
+            <div class="question">
+                <p>길 가다 멀리서 아는 사람을 봤을 떄 당신의 반응은?</p>
+                <label><input type="radio" name="q12" value="S">그 사람이 있는 곳으로 가 인사한다.</label>
+                <label><input type="radio" name="q12" value="N">나중에 또 볼테니 굳이 아는 척하지 않는다.</label>
+            </div>
+           
+
+
+            <button id="submit-button" type="button">결과 확인하기</button>
+        </form>
+        <div id="result" class="hide">
+            <h2>당신의 성격 유형은?</h2>
+            <p id="result-text">결과가 여기에 표시됩니다.</p>
+            <button>다시 시작하기</button>
+        </div>
+    </div>
+</body>
+</html>
